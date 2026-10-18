@@ -71,9 +71,15 @@ export default function About() {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-4 mt-8">
               {[
+<<<<<<< HEAD
                 { label: 'Years Experience', value: 'Fresher' },
                 { label: 'Projects', value: '5+' },
                 { label: 'Open Source Repos', value: '5+' },
+=======
+                { label: 'Years Experience', value: '4+' },
+                { label: 'Projects Shipped', value: '30+' },
+                { label: 'Open Source Repos', value: '48' },
+>>>>>>> origin/main
               ].map((stat) => (
                 <div key={stat.label} className="glass-card rounded-2xl p-4 text-center">
                   <div className="text-2xl sm:text-3xl font-display font-bold gradient-text">{stat.value}</div>

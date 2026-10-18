@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion';
 import {
   PenTool, BookOpen, Camera, Music, Mountain, GitBranch,
+<<<<<<< HEAD
   Github, Linkedin, Instagram, Youtube,
+=======
+  Github, Linkedin, Twitter, Instagram, Dribbble, Youtube,
+>>>>>>> origin/main
   Share2, type LucideIcon,
 } from 'lucide-react';
 import { hobbies, socials } from '@/data/portfolio';
@@ -12,7 +16,11 @@ const hobbyIcons: Record<string, LucideIcon> = {
 };
 
 const socialIcons: Record<string, LucideIcon> = {
+<<<<<<< HEAD
   Github, Linkedin, Instagram, Youtube,
+=======
+  Github, Linkedin, Twitter, Instagram, Dribbble, Youtube,
+>>>>>>> origin/main
 };
 
 export default function Others() {

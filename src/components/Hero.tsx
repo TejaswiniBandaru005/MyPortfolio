@@ -1,12 +1,20 @@
 import { useRef, useState, useEffect, Suspense, lazy } from 'react';
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import { ArrowDown, Github, Linkedin, Instagram } from 'lucide-react';
+=======
+import { ArrowDown, Github, Linkedin, Twitter, Instagram, Dribbble } from 'lucide-react';
+>>>>>>> origin/main
 import { profile, socials } from '@/data/portfolio';
 
 const Scene3D = lazy(() => import('./Scene3D'));
 
 const socialIcons: Record<string, typeof Github> = {
+<<<<<<< HEAD
   Github, Linkedin, Instagram,
+=======
+  Github, Linkedin, Twitter, Instagram, Dribbble,
+>>>>>>> origin/main
 };
 
 export default function Hero() {
