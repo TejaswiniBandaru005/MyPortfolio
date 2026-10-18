@@ -160,12 +160,16 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: 'TypeScript', level: 95, category: 'Languages', icon: 'Code2' },
-  { name: 'React', level: 96, category: 'Frontend', icon: 'Atom' },
-  { name: 'Java', level: 92, category: 'Backend', icon: 'Server' },
-  { name: 'Python', level: 80, category: 'Languages', icon: 'Terminal' },
-  { name: 'Tailwind CSS', level: 94, category: 'Frontend', icon: 'Palette' },
-  { name: 'Agentis AI', level: 85, category: 'AI & Tools', icon: 'Brain' },
+  { name: 'TypeScript', level: 95, category: 'Programming Languages', icon: 'Code2' },
+{ name: 'React', level: 80, category: 'Frontend Development', icon: 'Atom' },
+{ name: 'Java', level: 92, category: 'Programming Languages', icon: 'Coffee' },
+{ name: 'Python', level: 80, category: 'Programming Languages', icon: 'Terminal' },
+{ name: 'Tailwind CSS', level: 85, category: 'Frontend Development', icon: 'Palette' },
+{ name: 'Agentic AI', level: 85, category: 'Artificial Intelligence', icon: 'Brain' },
+{ name: 'AI Coding Assistants', level: 94, category: 'AI Tools', icon: 'Bot' },
+{ name: 'Responsible AI Usage', level: 80, category: 'AI Ethics & Safety', icon: 'ShieldCheck' },
+{ name: 'n8n', level: 94, category: 'Workflow Automation', icon: 'Workflow' },
+{ name: 'Prompt Engineering', level: 85, category: 'Generative AI', icon: 'MessageSquareText' },
   // { name: 'AWS / Docker', level: 82, category: 'DevOps', icon: 'Cloud' },
 ];
 
@@ -337,10 +341,21 @@ export const hobbies: Hobby[] = [
 ];
 
 export const techTicker = [
-  'Java', 'Python', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3',
-  'React', 'Next.js', 'Node.js', 'Express.js', 'Tailwind CSS', 'PostgreSQL', 'Supabase',
-  'Git', 'GitHub', 'REST APIs',
-  'Flutter', 'Dart',
-  'SAP ABAP Cloud', 'Agentic AI', 'LLMs', 'Prompt Engineering', 'AI Security',
-  'Docker', 'Vite', 'Framer Motion',
+  // Programming Languages
+  'Java', 'Python', 'TypeScript', 'JavaScript',
+
+  // Frontend Development
+  'React', 'HTML5', 'CSS3', 'Tailwind CSS',
+
+  // AI & Agent Development
+  'Agentic AI', 'Generative AI', 'LLMs', 'Prompt Engineering',
+
+  // AI Tools & Responsible AI
+  'AI Coding Assistants', 'Responsible AI', 'AI Security',
+
+  // Workflow Automation
+  'n8n', 'Workflow Automation',
+
+  // Development Tools
+  'Git', 'GitHub', 'VS Code', 'REST APIs',
 ];
